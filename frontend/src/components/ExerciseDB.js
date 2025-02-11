@@ -17,7 +17,7 @@ const ExercisePage = () => {
       method: "GET",
       url: `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${selectedMuscle}`,
       headers: {
-        'x-rapidapi-key': '0fa6cc4f62mshc831971d44e52aep106edajsnd9bb1596715b',
+        'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
         'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
       },
     };
@@ -83,7 +83,7 @@ const ExercisePage = () => {
           ))}
         </div>
       ) : (
-        <h3></h3>
+        <h3> </h3>
       )}
       {exercises.length > exercisesPerPage && (
         <div className="pagination">

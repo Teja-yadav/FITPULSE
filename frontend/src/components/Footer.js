@@ -17,7 +17,7 @@ const Footer = () => {
         <Row className="align-items-center">
           {/* Logo Section */}
           <Col md={4} className="text-center text-md-start mb-3 mb-md-0">
-            <h4 className="text-uppercase fw-bold">URBAN ATHLETE</h4>
+            <h4 className="text-uppercase fw-bold">FITPULSE</h4>
             <p className="mb-0">We tranform your personality not body</p>
           </Col>
 
@@ -65,8 +65,8 @@ const Footer = () => {
 
           {/* Contact Details */}
           <Col md={4} className="text-center text-md-end">
-            <p className="mb-0">© 2024 URBAN ATHLETE, Inc.</p>
-            <p className="mb-0">support@urbanathlete.com | +123 456 7890</p>
+            <p className="mb-0">© 2024 FITPULSE, Inc.</p>
+            <p className="mb-0">support@fitpulse.com | +123 456 7890</p>
           </Col>
         </Row>
       </Container>
