@@ -15,7 +15,7 @@ const NutritionCheckerForm = () => {
         )}`,
         {
           headers: {
-            "X-Api-Key": "WOO23cTA4ww2yrQ+otISmw==Z3Q2fFBcCTeE3OWj",
+            "X-Api-Key": process.env.REACT_APP_KEY,
           },
         }
       );
